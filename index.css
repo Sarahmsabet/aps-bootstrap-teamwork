@@ -1,0 +1,82 @@
+.box{
+    width: 60px;
+    height: 60px;
+    border: black 3px dotted;
+    margin: 5px;
+    border-radius: 15px;
+    position: relative;
+    animation: pulse 2s infinite both;
+}
+@keyframes pulse {
+    0%{
+        transform: scaleX(1);
+    }
+    50%{
+        transform: scale3d(1.05,1.05,1.05);
+    }
+    100%{
+      transform: scaleX(1);  
+    }
+}
+.one{
+    left: 40%;
+}
+.two{
+    left: -10%;
+    top: 50px;
+    scale: 0.8;
+}
+.three{
+    left: 55%;
+    top: 70px;
+    scale: 0.7;
+}
+.carousel-img{
+    width: 100px;
+    height: 100px;
+}
+.box> img{
+    width: 55px;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+.button{
+    border-radius: 5px;
+    width: 30px;
+    height: 40px;
+background-color: black;
+}
+.team-item {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 45px wheat;
+  }
+  
+  .team-item img {
+    transition: 0.5s;
+  }
+  
+  .team-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .team-text {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -50px;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .team-item:hover .team-text {
+    bottom: 0;
+    opacity: 1;
+    border-radius: 5%;
+  }
+  
+  .team-item a.btn:hover {
+    color: white;
+    background: rgb(130, 130, 218);
+    border-color: black;
+  }
