@@ -1,0 +1,29 @@
+.footer-background{
+    background: linear-gradient(90deg, #7C9D96 0%, #A1CCD1 35%, #E9B384 100%); 
+}
+.footer-btn{
+    right: 90px;
+    background-color: black;
+    opacity: 0.5;
+}
+.ft{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+.btn-size{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    opacity: 0.5;
+}
+.menu-background{
+    background: url(./menu.jpg) center center no-repeat;
+    background-size: cover;
+}
+.bc{
+    background-color: #7c9d96d2;
+}
