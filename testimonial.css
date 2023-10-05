@@ -1,0 +1,123 @@
+/* header css */
+.ladan {
+    background-color: #116A7B;
+}
+.d {
+    width: auto;
+    height: 70px;
+}
+/* nav css */
+ /* Navbar */
+  
+ .navbar .navbar-nav .nav-link {
+    margin-left: 25px;
+    padding: 15px 0;
+    color: #696e77;
+    font-weight: 500;
+    outline: none;
+  }
+  
+  @media (min-width: 950px) {
+    .navbar .nav-item .dropdown-menu {
+      display: block;
+      border: none;
+      margin-top: 0;
+      top: 150%;
+      right: 0;
+      opacity: 0;
+      visibility: hidden;
+      transition: 0.5s;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+      top: 100%;
+      visibility: visible;
+      transition: 0.5s;
+      opacity: 1;
+    }
+  }
+/* menu css */
+
+.menu-background{
+    background: url(./menu.jpg) center center no-repeat;
+    background-size: cover;
+}
+.bc{
+    background-color: #7c9d96d2;
+}
+
+/* carousel css */
+.box{
+    width: 60px;
+    height: 60px;
+    border: black 3px dotted;
+    margin: 5px;
+    border-radius: 15px;
+    position: relative;
+    animation: pulse 2s infinite both;
+}
+@keyframes pulse {
+    0%{
+        transform: scaleX(1);
+    }
+    50%{
+        transform: scale3d(1.05,1.05,1.05);
+    }
+    100%{
+      transform: scaleX(1);  
+    }
+}
+.one{
+    left: 40%;
+}
+.two{
+    left: -10%;
+    top: 50px;
+    scale: 0.8;
+}
+.three{
+    left: 55%;
+    top: 70px;
+    scale: 0.7;
+}
+.carousel-img{
+    width: 100px;
+    height: 100px;
+}
+.box> img{
+    width: 55px;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+.button{
+    border-radius: 5px;
+    width: 30px;
+    height: 40px;
+background-color: black;
+}
+h1 {
+    font-family: 'Playfair Display SC', serif;
+}
+
+/* footer css */
+.footer-background{
+    background: linear-gradient(90deg, #7C9D96 0%, #A1CCD1 35%, #E9B384 100%); 
+}
+.footer-btn{
+    right: 90px;
+    background-color: black;
+    opacity: 0.5;
+}
+.ft{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+.btn-size{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    opacity: 0.5;
+}
