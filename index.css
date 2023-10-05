@@ -80,3 +80,33 @@ background-color: black;
     background: rgb(130, 130, 218);
     border-color: black;
   }
+  .carousel-image {
+    height: 80vh;
+  }
+  .footer-background{
+    background: linear-gradient(90deg, #7C9D96 0%, #A1CCD1 35%, #E9B384 100%)!important; 
+}
+.footer-btn{
+    right: 90px;
+    background-color: black;
+    opacity: 0.5;
+}
+.ft{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+.btn-size{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    opacity: 0.5;
+}
+.carousel-control-prev , .carousel-control-next{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
