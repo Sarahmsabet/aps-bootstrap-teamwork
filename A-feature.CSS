@@ -1,0 +1,180 @@
+.ladan {
+    background-color: #116A7B;
+}
+.d {
+    width: auto;
+    height: 70px;
+}
+
+  /* Navbar */
+  
+  .navbar .navbar-nav .nav-link {
+    margin-left: 25px;
+    padding: 15px 0;
+    color: #696e77;
+    font-weight: 500;
+    outline: none;
+  }
+  
+  @media (min-width: 950px) {
+    .navbar .nav-item .dropdown-menu {
+      display: block;
+      border: none;
+      margin-top: 0;
+      top: 150%;
+      right: 0;
+      opacity: 0;
+      visibility: hidden;
+      transition: 0.5s;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+      top: 100%;
+      visibility: visible;
+      transition: 0.5s;
+      opacity: 1;
+    }
+  }
+  .menu-background{
+    background: url(./menu.jpg) center center no-repeat;
+    background-size: cover;
+}
+.bc{
+    background-color: #7c9d96d2;
+}
+.footer-background{
+    background: linear-gradient(90deg, #7C9D96 0%, #A1CCD1 35%, #E9B384 100%); 
+}
+.footer-btn{
+    right: 90px;
+    background-color: black;
+    opacity: 0.5;
+}
+.ft{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+.btn-size{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    opacity: 0.5;
+}
+.border1{
+    background-color: #A1CCD1;
+    padding: 2px;
+    border-radius: 5px;
+}
+.img1{
+    margin: 10px;
+    background-color: #f4f2de;
+    display: flex;
+    flex-direction:column;
+
+}
+.border2{
+    background-color: #A1CCD1;
+    border-radius: 5px;
+    padding: 2px;
+}
+.img2{
+    background-color: #f4f2de;
+    margin: 10px;
+    display: flex;
+    flex-direction:column;
+
+    
+}
+.border3{
+    background-color: #A1CCD1;
+    padding: 2px;
+}
+.img3{
+    background-color: #f4f2de;
+    display: flex;
+    flex-direction:column;
+    margin: 10px;
+}
+.border4{
+    background-color: #A1CCD1;
+    padding: 2px;
+}
+.img4{
+    background-color: #f4f2de;
+    display: flex;
+    flex-direction:column;
+    margin: 10px;
+}
+.img3{
+    background-color: #f4f2de;
+}
+.img4{
+    background-color: #f4f2de;
+}
+
+
+
+.image1{
+    width: 64px;
+    height: 64px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+
+
+.image2{
+    width: 64px;
+    height: 64px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.image3{
+    width: 64px;
+    height: 64px;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+.image4{
+    width: 64px;
+    height: 64px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.image5{
+    width: 700px;
+    height: 500px;
+    
+}
+.h{
+    margin-left: 70px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
