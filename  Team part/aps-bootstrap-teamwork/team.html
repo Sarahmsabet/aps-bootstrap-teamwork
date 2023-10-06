@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="1-index.css"> -->
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- header -->
+<div class="container-fluid bg-dark text-white-50 py-2 px-0 d-none d-lg-block">
+    <div class="row gx-0 align-items-center">
+      <div class="col-lg-7 px-5 text-start">
+        <div class="h-100 d-inline-flex align-items-center me-4">
+          <small class="bi bi-telephone-fill" aria-hidden="true"></small>
+          <small>+989122222222</small>
+        </div>
+        <div class="h-100 d-inline-flex align-items-center me-4">
+          <small class="bi bi-envelope-paper-heart-fill" aria-hidden="true"></small>
+          <small>info@example.com</small>
+        </div>
+        <div class="h-100 d-inline-flex align-items-center me-4">
+          <small class="bi bi-stopwatch" aria-hidden="true"></small>
+
+          <small>Mon - Fri : 09 AM - 09 PM</small>
+        </div>
+      </div>
+      <div class="col-lg-5 px-5 text-end">
+        <div class="h-100 d-inline-flex align-items-center">
+          <a class="text-white-50 ms-4" href=""><i class="bi bi-facebook" aria-hidden="true"></i></a>
+          <a class="text-white-50 ms-4" href=""><i class="bi bi-twitter" aria-hidden="true"></i></a>
+          <a class="text-white-50 ms-4" href=""><i class="bi bi-skype" aria-hidden="true"></i></a>
+          <a class="text-white-50 ms-4" href=""><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- navbar-->
+  <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
+    <a class="navbar-brand d-flex align-items-center" href="/">
+      <h1 class="m-0">
+        <img class="img-fluid me-3" src="logo.png" alt="logo">Bootcamp
+      </h1>
+    </a>
+    <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-expanded="false">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="navbarCollapse" >
+      <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
+        <a class="nav-item nav-link" href="">Menu Item 1</a>
+        <a class="nav-item nav-link active" href="">Menu Item 2</a>
+        <a class="nav-item nav-link" href="">Menu Item 3</a>
+        <div class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Menu Item 4</a>
+          <div class="dropdown-menu bg-light border-0 m-0">
+            <a class="dropdown-item" href="">Sub Menu 1</a>
+            <a class="dropdown-item" href="">Sub Menu 2</a>
+            <a class="dropdown-item" href="">Sub Menu 3</a>
+            <a class="dropdown-item" href="">Sub Menu 4</a>
+          </div>
+        </div>
+        <a class="nav-item nav-link" href="">Menu Item 5</a>
+      </div>
+    </div>
+    <a href="#" class="btn btn-primary px-3 d-none d-lg-block">Lorem ipsum</a>
+  </nav>
+   <!-- menu start -->
+<div class="container-fluid py-5 mb-5 menu-background">
+  <div class="container py-5 bc">
+    <h1 class="display-4 fw-bold mb-4">Menu Item 2</h1>
+    <nav>
+      <ul class="list-unstyled d-flex flex-row">
+        <li>
+          <a href="#" class="text-decoration-none text-black"
+            >Menu Item</a
+          >
+        </li>
+        <li>
+          <i class="bi bi-chevron-compact-right"></i
+          ><a href="#" class="text-decoration-none text-black"
+            >Menu Item</a
+          >
+        </li>
+        <li class="active" aria-current="page">
+          <i class="bi bi-chevron-compact-right"></i
+          ><a href="#" class="text-decoration-none">Menu Item</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+<!-- menu end -->
+  <main>
+    <!-- Team cards satrt -->
+    <div class="container my-5">
+        <div class="text-center mx-auto" style="max-width: 500px">
+          <h1 class="display-6 mb-5">
+            Lorem ipsum dolor sit amet consectetur.
+          </h1>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6 wow fadeInUp " data-wow-delay="0.1s">
+            <div class="team-item rounded">
+              <img class="img-fluid" src="IMG_3314 copy.jpg" style="width: 500px;
+              height: 500px;"  alt="traveling photo">
+              <div class="text-center p-4">
+                <h5>Full Name</h5>
+                <span>Lorem.</span>
+              </div>
+              <div class="team-text text-center bg-white p-4">
+                <h5>Full Name</h5>
+                <p>Lorem.</p>
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="team-item rounded">
+              <img class="img-fluid" src="IMG_3321.jpg" style="width: 500px;
+              height: 500px;" alt="">
+              <div class="text-center p-4">
+                <h5>Full Name</h5>
+                <span>Lorem.</span>
+              </div>
+              <div class="team-text text-center bg-white p-4">
+                <h5>Full Name</h5>
+                <p>Lorem.</p>
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="team-item rounded">
+              <img class="img-fluid" src="IMG_3322.jpg" style="width: 500px;
+              height: 500px;" alt="">
+              <div class="text-center p-4">
+                <h5>Full Name</h5>
+                <span>Lorem.</span>
+              </div>
+              <div class="team-text text-center bg-white p-4">
+                <h5>Full Name</h5>
+                <p>Lorem.</p>
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+            <div class="team-item rounded">
+              <img class="img-fluid" src="IMG_3323.jpg" style="width: 500px;
+              height: 500px;" alt="">
+              <div class="text-center p-4">
+                <h5>Full Name</h5>
+                <span>Designation</span>
+              </div>
+              <div class="team-text text-center bg-white p-4">
+                <h5>Full Name</h5>
+                <p>Lorem.</p>
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="team-item rounded">
+              <img class="img-fluid" src="IMG_3324.jpg" style="width: 500px;
+              height: 500px;" alt="">
+              <div class="text-center p-4">
+                <h5>Full Name</h5>
+                <span>Lorem.</span>
+              </div>
+              <div class="team-text text-center bg-white p-4">
+                <h5>Full Name</h5>
+                <p>Lorem.</p>
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="team-item rounded">
+              <img class="img-fluid" src="IMG_3325.jpg" style="width: 500px;
+              height: 500px;" alt="">
+              <div class="text-center p-4">
+                <h5>Full Name</h5>
+                <span>Lorem.</span>
+              </div>
+              <div class="team-text text-center bg-white p-4">
+                <h5>Full Name</h5>
+                <p>Lorem.</p>
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="team-item rounded">
+              <img class="img-fluid" src="IMG_3327.jpg" style="width: 500px;
+              height: 500px;" alt="">
+              <div class="text-center p-4">
+                <h5>Full Name</h5>
+                <span>Lorem.</span>
+              </div>
+              <div class="team-text text-center bg-white p-4">
+                <h5>Full Name</h5>
+                <p>Lorem.</p>
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+            <div class="team-item rounded">
+              <img class="img-fluid" src="IMG_3326.jpg" style="width: 500px;
+              height: 500px;" alt="">
+              <div class="text-center p-4">
+                <h5>Full Name</h5>
+                <span>Lorem.</span>
+              </div>
+              <div class="team-text text-center bg-white p-4">
+                <h5>Full Name</h5>
+                <p>Lorem.</p>
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-twitter"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-facebook-f"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-youtube"></i></a>
+                  <a class="btn btn-square btn-light m-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+  </main>
+
+<!-- Footer -->
+<footer>
+    <div class="container-fluid bg-dark d-flex-row">
+      <div class="row"><div class="col-lg-3 col-md-6 col-sm-12 text-white my-5 px-5">
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Incidunt tempora unde quae aperiam doloribus perferendis culpa
+            eum inventore natus laborum, sapiente omnis maxime delectus
+            deleniti commodi nihil beatae rem pariatur alias saepe a magnam.
+            Dolores?
+          </p>
+        </div>
+        <div>
+          <a href="" class="btn-outline-primary"
+            ><i class="btn btn-outline-secondary bi bi-twitter"></i
+          ></a>
+          <a href="" class="btn-outline-primary"
+            ><i class="btn btn-outline-secondary bi bi-facebook"></i
+          ></a>
+          <a href="" class="btn-outline-primary"
+            ><i class="btn btn-outline-secondary bi bi-youtube"></i
+          ></a>
+          <a href="" class="btn-outline-primary"
+            ><i class="btn btn-outline-secondary bi bi-linkedin"></i
+          ></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 text-white my-5">
+        <div><p class="h3 mb-4">Lorem Ipsum</p></div>
+        <div class="flex">
+          <p>
+            <i class="bi bi-geo-alt-fill"></i> Lorem Ipsum Street,Lorem
+            Ipsum Lorem
+          </p>
+        </div>
+        <div class="flex">
+          <p><i class="bi bi-telephone"></i> +9891222222220</p>
+        </div>
+        <div class="flex">
+          <p><i class="bi bi-envelope-heart-fill"></i> info@example.com</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 text-white my-5">
+        <div><p class="h3 mb-4">Lorem Ipsum Links</p></div>
+        <ul>
+          <a href="#" class="text-decoration-none text-white">
+            <li class="list-unstyled">
+              <i class="bi bi-link"></i> Lorem Ipsum Us
+            </li>
+          </a>
+          <a href="#" class="text-decoration-none text-white">
+              <li class="list-unstyled">
+                <i class="bi bi-link"></i> Our Lorem Ipsum
+              </li>
+          </a>
+          <a href="#" class="text-decoration-none text-white">
+            <li class="list-unstyled">
+              <i class="bi bi-link"></i> Lorem & Lorem Ipsum
+            </li>
+          </a>
+          <a href="#" class="text-decoration-none text-white">
+            <li class="list-unstyled">
+              <i class="bi bi-link"></i> Lorem
+            </li>
+          </a>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 text-white my-5">
+        <p class="h3 mb-4">Lorem Ipsum</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="position-relative">
+          <input
+            type="text"
+            name="text"
+            id="text"
+            placeholder="Lorem Ipsum"
+            class="bg-transparent w-100 p-2 rounded"
+          />
+          <button class="btn btn-primary position-absolute end-0 p-2">
+            Lorem Ipsum
+          </button>
+        </div>
+</div>
+<div class="border-top py-3"></div>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 text-white">
+        <p>
+          <i class="bi bi-c-circle"></i
+          ><a href="#" class="text-decoration-none">
+            Lorem Ipsum Lorem Ipsum</a
+          >
+          , Lorem Ipsum Lorem Ipsum.
+        </p>
+      </div>
+      <div
+        class="col-lg-6 col-sm-12 text-white text-center text-md-end"
+      >
+        <p>
+          Lorem ipsum<a
+            href="https://htmlcodex.com/"
+            class="text-decoration-none"
+          >
+            By Lorem, ipsum.</a
+          >
+          <br />
+          Lorem ipsum By:
+          <a
+            href="https://themewagon.com/"
+            class="text-decoration-none"
+            target="_blank"
+          >
+            Lorem.</a
+          >
+        </p>
+      </div></div>
+    </div>
+  </footer>
+
+
+
+
+
+
+  
+  <script
+  src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+  integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+  crossorigin="anonymous"
+></script>
+
+
+
+
+
+     
+
+</body>
+</html>

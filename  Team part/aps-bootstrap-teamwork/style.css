@@ -1,0 +1,47 @@
+.button{
+    border-radius: 5px;
+    width: 30px;
+    height: 40px;
+background-color: black;
+}
+.team-item {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 45px wheat;
+  }
+  
+  .team-item img {
+    transition: 0.5s;
+  }
+  
+  .team-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .team-text {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -50px;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  
+  .team-item:hover .team-text {
+    bottom: 0;
+    opacity: 1;
+    border-radius: 5%;
+  }
+  
+  .team-item a.btn:hover {
+    color: white;
+    background: rgb(71, 71, 255);
+    border-color: black;
+  }
+  .menu-background{
+    background: url(./menu.jpg) center center no-repeat;
+    background-size: cover;
+}
+.bc{
+    background-color: #7c9d96d2;
+}
