@@ -128,10 +128,7 @@ background-color: black;
 .Hc{
   background-color: #116A7B;
 }
-.d {
-  width: auto;
-  height: 70px;
-}
+
 
 /* Navbar */
 
@@ -141,6 +138,10 @@ background-color: black;
   color: #696e77;
   font-weight: 500;
   outline: none;
+}
+.fatemehk{
+  border: #f4f2de solid 10px;
+
 }
 
 @media (min-width: 950px) {
