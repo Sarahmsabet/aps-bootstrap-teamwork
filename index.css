@@ -124,7 +124,43 @@ background-color: black;
   align-items: center;
 
 }
+/* color header */
+.Hc{
+  background-color: #116A7B;
+}
+.d {
+  width: auto;
+  height: 70px;
+}
 
+/* Navbar */
+
+.navbar .navbar-nav .nav-link {
+  margin-left: 25px;
+  padding: 15px 0;
+  color: #696e77;
+  font-weight: 500;
+  outline: none;
+}
+
+@media (min-width: 950px) {
+  .navbar .nav-item .dropdown-menu {
+    display: block;
+    border: none;
+    margin-top: 0;
+    top: 150%;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    top: 100%;
+    visibility: visible;
+    transition: 0.5s;
+    opacity: 1;
+  }
+}
 
 
 
