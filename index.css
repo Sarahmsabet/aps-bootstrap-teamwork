@@ -142,6 +142,12 @@ background-color: black;
   font-weight: 500;
   outline: none;
 }
+.fatemehk{
+  border: #f4f2de solid 10px;
+
+  
+
+}
 
 @media (min-width: 950px) {
   .navbar .nav-item .dropdown-menu {
